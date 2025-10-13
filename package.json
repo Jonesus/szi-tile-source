@@ -1,6 +1,6 @@
 {
   "name": "szi-tile-source",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "An OpenSeadragon TileSource for remotely hosted SZI files",
   "type": "module",
   "files": [
@@ -19,7 +19,8 @@
     "build": "vite build",
     "build_site": "vite build --config pages.config.js",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare": "vite build"
   },
   "repository": {
     "type": "git",
